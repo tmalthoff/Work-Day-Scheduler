@@ -51,6 +51,6 @@ $(document).ready(function() {
   
   $("#17 .description").val(localStorage.getItem("17"));
 
-  $("#currentDay").text(moment().format("dddd, MMMM Do"));
+  $("#Day").text(moment().format("dddd, MMMM Do YYYY"));
 });
 
