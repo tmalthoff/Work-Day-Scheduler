@@ -5,8 +5,18 @@ body {
   background-image: url("../Work-Day-Scheduler/assets/IMG_3352.jpg");
   height: auto;
   opacity: 90%;
+  color: white;
   
 }
+
+h1 {
+  color: white;
+}
+
+.lead {
+  color: white;
+}
+
 
 textarea{
   background: transparent;
@@ -14,7 +24,7 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  padding: 12px;
 }
 
 .jumbotron {
@@ -22,7 +32,7 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 12px solid black;
 }
 
 .description{

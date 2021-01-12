@@ -8,7 +8,8 @@ $(document).ready(function() {
   });
 
   function hourUpdater() {
-   
+   //Works on changing the updater for the time block, itll add a class based 
+   //on what it is, so then the css will latch on to it
     var currentHour = moment().hours();
 
     $(".time-block").each(function() {
@@ -31,15 +32,23 @@ $(document).ready(function() {
 
   hourUpdater();
   var interval = setInterval(hourUpdater, 15000);
-
+//Will retrieve the stored info
   $("#9 .description").val(localStorage.getItem("9"));
+  
   $("#10 .description").val(localStorage.getItem("10"));
+  
   $("#11 .description").val(localStorage.getItem("11"));
+  
   $("#12 .description").val(localStorage.getItem("12"));
+  
   $("#13 .description").val(localStorage.getItem("13"));
+  
   $("#14 .description").val(localStorage.getItem("14"));
+  
   $("#15 .description").val(localStorage.getItem("15"));
+  
   $("#16 .description").val(localStorage.getItem("16"));
+  
   $("#17 .description").val(localStorage.getItem("17"));
 
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
